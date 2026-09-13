@@ -41,4 +41,21 @@ h2 {
 .docs-section__content :deep(pre) { overflow-x: auto; padding: 1rem; background: #f1f5f9; border-radius: 0.5rem; }
 .docs-section__content :deep(code) { font-family: ui-monospace, monospace; font-size: 0.9em; }
 .docs-section__content :deep(blockquote) { margin-inline: 0; padding-left: 1rem; border-left: 3px solid #cbd5e1; }
+
+.docs-section {
+  color: #f5f5f5;
+}
+
+.docs-section h2 {
+  color: #ffffff;
+}
+
+.docs-section :deep(p),
+.docs-section :deep(li) {
+  color: #e5e7eb;
+}
+
+.docs-section :deep(a) {
+  color: #a5b4fc;
+}
 </style>
