@@ -1,5 +1,7 @@
 <script setup>
-defineProps({ blok: Object });
+defineProps({
+  blok: Object
+});
 </script>
 
 <template>
@@ -12,12 +14,20 @@ defineProps({ blok: Object });
     {{ blok.name }}
   </a>
 
-  <div v-else v-editable="blok" class="feature">
+  <div
+    v-else
+    v-editable="blok"
+    class="feature"
+  >
     {{ blok.name }}
   </div>
 </template>
 
-<script setup>
-defineProps({ blok: Object })
-.feature { display: block; color: inherit; text-decoration: none; cursor: pointer; }
-</script>
+<style scoped>
+.feature {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+</style>
