@@ -44,5 +44,25 @@ h3 { margin: 0 0 0.75rem; font-size: 1.25rem; line-height: 1.35; }
 .code-example__language { padding: 0.5rem 1rem; border-bottom: 1px solid #334155; font-size: 0.8rem; overflow-wrap: anywhere; }
 pre { margin: 0; padding: clamp(1rem, 4vw, 1.5rem); overflow-x: auto; border-radius: inherit; }
 pre:focus-visible { outline: 2px solid #60a5fa; outline-offset: -3px; }
-code { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 0.875rem; line-height: 1.65; white-space: pre; tab-size: 2; }
+.code-example {
+  color: #f5f5f5;
+}
+
+.code-example h3 {
+  color: #ffffff;
+}
+
+.code-example :deep(p),
+.code-example :deep(li) {
+  color: #d1d5db;
+}
+
+.code-example pre {
+  background: #111827;
+  color: #f8fafc;
+}
+
+.code-example code {
+  color: #f8fafc;
+}code { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 0.875rem; line-height: 1.65; white-space: pre; tab-size: 2; }
 </style>
