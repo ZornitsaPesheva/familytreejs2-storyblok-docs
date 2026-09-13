@@ -26,7 +26,7 @@ defineProps({
 <style scoped>
 .feature {
   display: block;
-  color: inherit;
+  color: #111827;
   text-decoration: none;
   cursor: pointer;
 }
