@@ -54,7 +54,7 @@ pre:focus-visible { outline: 2px solid #60a5fa; outline-offset: -3px; }
 
 .code-example :deep(p),
 .code-example :deep(li) {
-  color: #d1d5db;
+  color: #f5f5f5;
 }
 
 .code-example pre {
@@ -69,10 +69,5 @@ pre:focus-visible { outline: 2px solid #60a5fa; outline-offset: -3px; }
   color: #f5f5f5;
 }
 
-.code-example h2,
-.code-example h3,
-.code-example :deep(p),
-.code-example :deep(li) {
-  color: #f5f5f5;
-}
+
 </style>
