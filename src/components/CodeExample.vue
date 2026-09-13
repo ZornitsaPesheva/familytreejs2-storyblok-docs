@@ -65,4 +65,14 @@ pre:focus-visible { outline: 2px solid #60a5fa; outline-offset: -3px; }
 .code-example code {
   color: #f8fafc;
 }code { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 0.875rem; line-height: 1.65; white-space: pre; tab-size: 2; }
+.code-example {
+  color: #f5f5f5;
+}
+
+.code-example h2,
+.code-example h3,
+.code-example :deep(p),
+.code-example :deep(li) {
+  color: #f5f5f5;
+}
 </style>
