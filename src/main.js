@@ -6,6 +6,8 @@ import Page from './components/Page.vue';
 import Teaser from './components/Teaser.vue';
 import Grid from './components/Grid.vue';
 import Feature from './components/Feature.vue';
+import DocsSection from './components/DocsSection.vue';
+import CodeExample from './components/CodeExample.vue';
 import PageView from './PageView.vue';
 
 const routes = [{ path: '/:slug*', component: PageView }];
@@ -33,4 +35,6 @@ app.component('Page', Page);
 app.component('Teaser', Teaser);
 app.component('Grid', Grid);
 app.component('Feature', Feature);
+app.component('docs_section', DocsSection);
+app.component('code_example', CodeExample);
 app.use(router).mount('#app');
